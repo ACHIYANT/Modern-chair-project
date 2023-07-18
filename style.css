@@ -431,3 +431,44 @@ body{
     background-color: #333 !important;
   } */
 
+  @media screen and (max-width:1000px) {
+    .wrapper-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-left{
+        width: 100%;
+    }
+    .section-right{
+        /* width: 100%; */
+        margin-top: 20rem;
+        width: 370px;
+    }
+    .inner-right-section{
+        align-items: center;
+        width: 100%;
+    }
+    .right-desc{
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+    }
+    .choose-colors{
+        text-align: center;
+    }
+    .chair
+    {
+        width: 420px;
+        height: 350px;
+        left: 0;
+        right: 0;
+        margin: 0rem auto;
+        padding-bottom: 2rem;
+        /* left: 20%; */
+        /* margin-left: 3rem; */
+        /* left: 50%; */
+        /* top: 10%; */
+        /* transform: translate(-50%,-10%); */
+    }
+  }
